@@ -19,3 +19,18 @@ export function SearchResults({ results }: SearchResultsProps) {
     </div>
   )
 }
+
+// COMO ACONTECE A (RE-)RENDERIZAÇÃO NO REACT
+/**
+ * 1. Criar uma nova versão do componente
+ * 2. Comparar com a versão anterior
+ * 3. Se houver alterações, vai atualizar o que alterou
+ */
+
+// QUANDO UTILIZAR O MEMO
+/**
+ * 1. Pure Functional Components
+ * 2. Renders to often
+ * 3. Re-renders with same props
+ * 4. Medium to big size
+ */
