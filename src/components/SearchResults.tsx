@@ -29,7 +29,7 @@ export function SearchResults({ results }: SearchResultsProps) {
 
 // QUANDO UTILIZAR O MEMO
 /**
- * 1. Pure Functional Components
+ * 1. Pure Functional Components => "Pure" significa que dados os mesmo parametros, retornam o mesmo resultado
  * 2. Renders to often
  * 3. Re-renders with same props
  * 4. Medium to big size
